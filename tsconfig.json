@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "checkJs": false,
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "moduleResolution": "node",
@@ -42,5 +43,12 @@
     }
   },
   "exclude": ["./out/**/*", "./node_modules/**/*", "**/*.test.ts"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/templates/Main_backup.jsx",
+    "src/pages/checkout.jsx",
+    "src/pages/api/checkout_sessions.jsx"
+  ]
 }
